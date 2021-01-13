@@ -12,6 +12,7 @@ int main() {
        i++;
        moyen += numero;
     }
+	
   }
   printf("\nLa moyenne de ces %d entiers vaut : %.2f", i, moyen/i);
   return 0;
