@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main() {
+
+  int a, b, x = 0;
+
+  printf("enter a : ");
+
+  scanf("%d", &a);
+
+   printf("enter b : ");
+
+  scanf("%d", &b);
+
+  while (b >= 1){
+
+    if (b % 2 != 0){
+
+      b -= 1;
+
+      x += a;
+
+    } else if (b % 2 == 0){
+
+      a *= 2;
+
+      b /= 2;
+
+    }
+
+  }
+
+  printf("le resultat est : %d", x);
+
+  return 0;
+
+}
